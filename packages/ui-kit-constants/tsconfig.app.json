@@ -1,0 +1,12 @@
+{
+  "extends": "@nado/tsconfig/tsconfig.web.json",
+  "include": ["types/**/*", "src/**/*", "src/**/*.vue"],
+  "exclude": [
+    "**/node_modules/**",
+    "**/dist/**"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": "."
+  }
+}

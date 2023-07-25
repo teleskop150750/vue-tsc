@@ -1,0 +1,16 @@
+{
+  "name": "@nado/play-vue",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check build-only",
+    "build-only": "vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
+  },
+  "dependencies": {
+    "@nado/ui-kit-components": "workspace:*",
+    "vue": "^3.3.4"
+  }
+}

@@ -1,0 +1,4 @@
+
+> @nado/ui-kit-components@0.0.0 type-check C:\Dev\Test\mono\packages\ui-kit-constants
+> vue-tsc --noEmit -p ./tsconfig.app.json --composite false
+
